@@ -41,17 +41,17 @@
 
 ## ⚙️ Instalação
 
-git clone https://github.com/bruu-carmo/threat-intelligence-aggregator.git
-cd threat-intelligence-aggregator
-pip install -r requirements.txt
-python main.py
+- git clone https://github.com/bruu-carmo/threat-intelligence-aggregator.git
+- cd threat-intelligence-aggregator
+- pip install -r requirements.txt
+- python main.py
 
 ---
 
 ## 🧠 Executando a API
-uvicorn threat_intelligence_aggregator.api:app --reload
+- uvicorn threat_intelligence_aggregator.api:app --reload
 
-> Acesse: http://127.0.0.1:8000/docs
+Acesse: http://127.0.0.1:8000/docs
 
 ---
 
